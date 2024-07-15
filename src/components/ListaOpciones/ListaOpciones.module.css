@@ -1,0 +1,27 @@
+.selectContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.label {
+
+}
+
+.select {
+    padding: 5px 2px;
+    border-radius: 5px;
+    border: 2px solid var(--blue-dark);
+    font-size: 1rem;
+    height: 35px;
+    cursor: pointer;
+}
+
+.select:focus {
+    outline: none;
+}
+
+.errorMessage {
+    color: red;
+}

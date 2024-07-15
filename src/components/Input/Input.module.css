@@ -1,0 +1,26 @@
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.label {
+
+}
+
+.input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid var(--blue-dark);
+    font-size: 1rem;
+    height: 35px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.errorMessage {
+    color: red;
+}
