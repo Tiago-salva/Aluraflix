@@ -1,0 +1,22 @@
+.playerContainer {
+    background-color: var(--black-light);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px 10px;
+}
+
+.videoTitulo {
+
+}
+
+.video {
+    width: 90%;
+}
+
+.videoDescripcion {
+
+}

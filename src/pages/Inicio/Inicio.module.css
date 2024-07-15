@@ -1,0 +1,22 @@
+.noVideosContainer {
+    background-color: var(--black-light);
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noVideosContainer > h1 {
+    color: aliceblue;
+    font-weight: 500;
+    width: 250px;
+    text-align: center;
+}
+
+.videosContainer {
+    background-color: var(--black-light);
+    display: flex;
+    padding: 50px 20px;
+    flex-direction: column;
+    gap: 50px;
+}
