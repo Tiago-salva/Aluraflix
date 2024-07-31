@@ -3,7 +3,13 @@ import styles from "./Banner.module.css";
 import { VideosContext } from "../../context/Videos";
 
 const Banner = () => {
-  const { videoSelected } = useContext(VideosContext);
+  const { videoSelected, categorias } = useContext(VideosContext);
+  let categoriaSelected = undefined;
+  if (videoSelected) {
+    categoriaSelected = categorias.find(
+      (categoria) => categoria.titulo === videoSelected.categoria.toUpperCase()
+    );
+  }
   return (
     <>
       {videoSelected === undefined ? (
@@ -13,7 +19,9 @@ const Banner = () => {
       ) : (
         <section className={styles.banner}>
           <div className={styles.textContainer}>
-            <h1>{videoSelected.categoria.toUpperCase()}</h1>
+            <h1 style={{ backgroundColor: categoriaSelected.color }}>
+              {videoSelected.categoria.toUpperCase()}
+            </h1>
             <h2>{videoSelected.titulo}</h2>
             <p>{videoSelected.descripcion}</p>
           </div>
