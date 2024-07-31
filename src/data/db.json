@@ -2,75 +2,75 @@
   "videos": [
     {
       "id": "0",
-      "titulo": "Como utilizar el Display block, inline, inline-block",
+      "titulo": "This is just a test title",
       "categoria": "front end",
       "imagen": "https://img.youtube.com/vi/03cxUlwLVt4/maxresdefault.jpg",
       "video": "https://www.youtube.com/embed/AG2QssLpQzI?si=6Yn355wcxAqU7_Ld",
-      "descripcion": "Esto es un texto de prueba para verificar que la propiedad descripcion funciona perfectamente y que se visualiza de manera correcta en el player"
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est ullamcorper, blandit sem nec, aliquam nunc. Praesent luctus viverra tellus. In sed metus ultrices, vehicula enim venenatis, egestas eros. Quisque tincidunt in risus in dictum. Quisque et lacus volutpat, auctor velit non, pulvinar nisi. Cras id tellus sed nisi condimentum venenatis. Phasellus euismod, sem quis pharetra placerat, tellus sapien fringilla nisl, eu convallis velit felis vel eros."
     },
     {
       "id": "1",
-      "titulo": "Productividad en el trabajo remoto",
+      "titulo": "This is just a test title",
       "categoria": "back end",
       "imagen": "https://img.youtube.com/vi/1G4isv_Fylg/maxresdefault.jpg",
       "video": "https://www.youtube.com/embed/AULPtYo25Lw?si=UGdKX1NSrEcQ0jfn",
-      "descripcion": ""
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est ullamcorper, blandit sem nec, aliquam nunc. Praesent luctus viverra tellus. In sed metus ultrices, vehicula enim venenatis, egestas eros. Quisque tincidunt in risus in dictum. Quisque et lacus volutpat, auctor velit non, pulvinar nisi. Cras id tellus sed nisi condimentum venenatis. Phasellus euismod, sem quis pharetra placerat, tellus sapien fringilla nisl, eu convallis velit felis vel eros."
     },
     {
       "id": "2",
-      "titulo": "¿Cuáles son las principales áreas de la programación?",
+      "titulo": "This is just a test title",
       "categoria": "innovación y gestión",
       "imagen": "https://img.youtube.com/vi/ScMzIvxBSi4/maxresdefault.jpg",
       "video": "https://www.youtube.com/embed/03cxUlwLVt4?si=zVCUQNO-eS2RZQTO",
-      "descripcion": ""
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est ullamcorper, blandit sem nec, aliquam nunc. Praesent luctus viverra tellus. In sed metus ultrices, vehicula enim venenatis, egestas eros. Quisque tincidunt in risus in dictum. Quisque et lacus volutpat, auctor velit non, pulvinar nisi. Cras id tellus sed nisi condimentum venenatis. Phasellus euismod, sem quis pharetra placerat, tellus sapien fringilla nisl, eu convallis velit felis vel eros."
     },
     {
       "id": "3",
-      "titulo": "Detección de intruso con IA",
+      "titulo": "This is just a test title",
       "categoria": "front end",
       "imagen": "https://img.youtube.com/vi/5qap5aO4i9A/maxresdefault.jpg",
       "video": "https://www.youtube.com/embed/5T_Q_NtNLZE?si=M7D0JeagaKqsoaFs",
-      "descripcion": ""
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est ullamcorper, blandit sem nec, aliquam nunc. Praesent luctus viverra tellus. In sed metus ultrices, vehicula enim venenatis, egestas eros. Quisque tincidunt in risus in dictum. Quisque et lacus volutpat, auctor velit non, pulvinar nisi. Cras id tellus sed nisi condimentum venenatis. Phasellus euismod, sem quis pharetra placerat, tellus sapien fringilla nisl, eu convallis velit felis vel eros."
     },
     {
       "id": "4",
-      "titulo": "Cómo usar styled-components en React",
+      "titulo": "This is just a test title",
       "categoria": "innovación y gestión",
       "imagen": "https://i.ytimg.com/vi/KSyqCUAr2CU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCtSgAU0mm7a_3cSfhPqk9pDG5A3Q",
       "video": "https://www.youtube.com/embed/03cxUlwLVt4?si=zVCUQNO-eS2RZQTO",
-      "descripcion": "Aprende a usar styled-components para estilizar tus aplicaciones React."
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est ullamcorper, blandit sem nec, aliquam nunc. Praesent luctus viverra tellus. In sed metus ultrices, vehicula enim venenatis, egestas eros. Quisque tincidunt in risus in dictum. Quisque et lacus volutpat, auctor velit non, pulvinar nisi. Cras id tellus sed nisi condimentum venenatis. Phasellus euismod, sem quis pharetra placerat, tellus sapien fringilla nisl, eu convallis velit felis vel eros."
     },
     {
       "id": "5",
-      "titulo": "Introducción a Node.js",
+      "titulo": "This is just a test title",
       "categoria": "innovación y gestión",
       "imagen": "https://img.youtube.com/vi/lWA2pjMjpBs/maxresdefault.jpg",
       "video": "https://www.youtube.com/embed/03cxUlwLVt4?si=zVCUQNO-eS2RZQTO",
-      "descripcion": "Este video proporciona una introducción a Node.js y cómo usarlo."
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est ullamcorper, blandit sem nec, aliquam nunc. Praesent luctus viverra tellus. In sed metus ultrices, vehicula enim venenatis, egestas eros. Quisque tincidunt in risus in dictum. Quisque et lacus volutpat, auctor velit non, pulvinar nisi. Cras id tellus sed nisi condimentum venenatis. Phasellus euismod, sem quis pharetra placerat, tellus sapien fringilla nisl, eu convallis velit felis vel eros."
     },
     {
       "id": "6",
-      "titulo": "Cómo manejar el estado en React",
+      "titulo": "This is just a test title",
       "categoria": "front end",
       "imagen": "https://img.youtube.com/vi/3AtDnEC4zak/maxresdefault.jpg",
       "video": "https://www.youtube.com/embed/03cxUlwLVt4?si=zVCUQNO-eS2RZQTO",
-      "descripcion": "Aprende a manejar el estado en tus aplicaciones React usando hooks."
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est ullamcorper, blandit sem nec, aliquam nunc. Praesent luctus viverra tellus. In sed metus ultrices, vehicula enim venenatis, egestas eros. Quisque tincidunt in risus in dictum. Quisque et lacus volutpat, auctor velit non, pulvinar nisi. Cras id tellus sed nisi condimentum venenatis. Phasellus euismod, sem quis pharetra placerat, tellus sapien fringilla nisl, eu convallis velit felis vel eros."
     },
     {
       "id": "7",
-      "titulo": "Introducción a TypeScript",
+      "titulo": "This is just a test title",
       "categoria": "back end",
       "imagen": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
       "video": "https://www.youtube.com/embed/03cxUlwLVt4?si=zVCUQNO-eS2RZQTO",
-      "descripcion": "Una guía introductoria a TypeScript y cómo mejorar tu código JavaScript."
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est ullamcorper, blandit sem nec, aliquam nunc. Praesent luctus viverra tellus. In sed metus ultrices, vehicula enim venenatis, egestas eros. Quisque tincidunt in risus in dictum. Quisque et lacus volutpat, auctor velit non, pulvinar nisi. Cras id tellus sed nisi condimentum venenatis. Phasellus euismod, sem quis pharetra placerat, tellus sapien fringilla nisl, eu convallis velit felis vel eros."
     },
     {
       "id": "8",
-      "titulo": "CSS Grid: Diseño de layouts modernos",
+      "titulo": "This is just a test title",
       "categoria": "back end",
       "imagen": "https://img.youtube.com/vi/rYEDA3JcQqw/maxresdefault.jpg",
       "video": "https://www.youtube.com/embed/03cxUlwLVt4?si=zVCUQNO-eS2RZQTO",
-      "descripcion": "Aprende a crear layouts modernos y responsivos usando CSS Grid."
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est ullamcorper, blandit sem nec, aliquam nunc. Praesent luctus viverra tellus. In sed metus ultrices, vehicula enim venenatis, egestas eros. Quisque tincidunt in risus in dictum. Quisque et lacus volutpat, auctor velit non, pulvinar nisi. Cras id tellus sed nisi condimentum venenatis. Phasellus euismod, sem quis pharetra placerat, tellus sapien fringilla nisl, eu convallis velit felis vel eros."
     }
   ]
 }
