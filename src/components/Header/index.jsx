@@ -22,10 +22,10 @@ const Header = () => {
       </div>
 
       <nav className={`${styles.nav}  ${open ? styles.displayed : ""}`}>
-        <Link to="/" className={styles.link}>
+        <Link to="/" className={styles.link} onClick={handleClick}>
           Home
         </Link>
-        <Link to="/nuevo-video" className={styles.link}>
+        <Link to="/nuevo-video" className={styles.link} onClick={handleClick}>
           Nuevo video
         </Link>
       </nav>
