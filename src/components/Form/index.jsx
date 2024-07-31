@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState, useContext, useEffect, useRef } from "react";
 import { InputsContext } from "../../context/Inputs";
 import Input from "../Input";
 import styles from "./Form.module.css";
@@ -52,8 +52,31 @@ const Form = ({ onSubmitFunction }) => {
     }
   };
 
+  const handleReset = () => {
+    const nuevoVideoForm = document.querySelector("#nuevoVideo");
+    const editarVideoForm = document.querySelector("#editarVideo");
+    if (nuevoVideoForm || editarVideoForm) {
+      const allInputs = document.querySelectorAll("#nuevoVideo input");
+      allInputs.forEach((input) => {
+        input.value = "";
+      });
+      setFormData({
+        ...formData,
+        titulo: "",
+        categoria: "",
+        imagen: "",
+        video: "",
+        descripcion: "",
+      });
+      setIdToEdit(null);
+    }
+  };
+
   return (
-    <form onSubmit={handleSubmit}>
+    <form
+      onSubmit={handleSubmit}
+      id={idToEdit === null ? "nuevoVideo" : "editarVideo"}
+    >
       <div className={styles.inputsContainer}>
         {inputs.map((input) => (
           <Input
@@ -72,7 +95,7 @@ const Form = ({ onSubmitFunction }) => {
 
       <div className={styles.buttonContainer}>
         <Button type="submit">Guardar</Button>
-        <Button type="reset">Limpiar</Button>
+        <Button onClickFunction={() => handleReset()}>Limpiar</Button>
       </div>
     </form>
   );
