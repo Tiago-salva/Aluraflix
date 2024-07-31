@@ -4,12 +4,6 @@ import styled from "styled-components";
 import { useContext, useEffect } from "react";
 import { VideosContext } from "../../context/Videos";
 
-const Div = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-`;
-
 const Categoria = ({ titulo, color }) => {
   const { videos, getVideos } = useContext(VideosContext);
 
@@ -27,7 +21,7 @@ const Categoria = ({ titulo, color }) => {
       <h1 style={{ backgroundColor: color }} className={styles.titulo}>
         {titulo}
       </h1>
-      <Div>
+      <div className={styles.cardContainer}>
         {videosFiltrados.map((videoFiltrado) => {
           return (
             <Card
@@ -37,7 +31,7 @@ const Categoria = ({ titulo, color }) => {
             />
           );
         })}
-      </Div>
+      </div>
     </section>
   );
 };
