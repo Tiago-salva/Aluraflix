@@ -16,3 +16,38 @@
     text-align: center;
     padding: 10px 0;
 }
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media(min-width: 600px) {
+    .titulo {
+        width: 300px;
+    }
+
+    .cardContainer {
+        justify-content: space-between;
+    }
+
+    .cardContainer > div:nth-of-type(3) {
+        margin: 0 auto;
+    }
+}
+
+@media(min-width: 992px) {
+    .categoria {
+        align-items: flex-start;
+    }
+
+    .cardContainer {
+        width: 100%;
+    }
+
+    .cardContainer > div:nth-of-type(3) {
+        margin: 0;
+    }
+}

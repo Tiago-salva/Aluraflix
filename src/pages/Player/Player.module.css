@@ -13,10 +13,38 @@
 
 }
 
-.video {
+.video,
+.videoDescripcion {
     width: 90%;
 }
 
-.videoDescripcion {
+@media(min-width: 600px) {
+    .playerContainer {
+        padding: 50px 10px;
+    }
 
+    .videoTitulo {
+        font-size: 1.8rem;
+        width: 70%;
+    }
+
+    .videoDescripcion {
+        font-size: 1.2rem;
+    }
+}
+
+@media(min-width: 992px) {
+    .playerContainer {
+        padding: 50px 10px;
+    }
+
+    .videoTitulo {
+        font-size: 2rem;
+        width: 60%;
+    }
+
+    .videoDescripcion {
+        font-size: 1.3rem;
+        width: 60%;
+    }
 }

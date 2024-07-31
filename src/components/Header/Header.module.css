@@ -80,6 +80,46 @@
     color: aliceblue;
 }
 
-.link-selected {
-    
+@media(min-width:600px) {
+    .header img {
+        width: 170px;
+        height: 50px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav {
+        position: static;
+        flex-direction: row;
+        width: auto;
+        height: 50px;
+        border-bottom: none;
+        gap: 20px;
+    }
+
+    .link {
+        width: 100px;
+        height: 30px;
+        background-color: transparent;
+        color: aliceblue;
+        font-size: 1rem;
+    }
+
+    .link:hover {
+        background-color: transparent;
+        color: var(--blue-dark);
+    }
+}
+
+@media(min-width: 992px) {
+    .nav {
+        gap: 50px;
+    }
+
+    .link {
+        width: auto;
+        font-size: 1.3rem;
+    } 
 }

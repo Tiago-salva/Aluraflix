@@ -22,6 +22,19 @@
     outline: none;
 }
 
-.errorMessage {
-    color: red;
+@media(min-width: 600px) {
+    .select {
+        height: 40px;
+    }
+}
+
+@media(min-width: 992px) {
+    .label {
+        font-size: 1.1rem;
+    }
+    
+    .select {
+        font-size: 1.2rem;
+        width: 48.5%;
+    }
 }

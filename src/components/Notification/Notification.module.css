@@ -47,3 +47,22 @@
     width: 60px;
     color: aliceblue;
 }
+
+@media(min-width: 600px) {
+    .notificationContainer {
+        width: 300px;
+        height: 330px;
+    }
+
+    .notificationContainer > svg {
+        width: 120px;
+        height: 120px;
+    }
+
+    .notificationContainer > button {
+        font-size: 1.2rem;
+        width: auto;
+        padding: 10px 25px;
+        margin-top: 15px;
+    }
+}

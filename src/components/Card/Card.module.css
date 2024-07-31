@@ -1,6 +1,7 @@
 .card {
+    width: 100%;
+    max-width: 360px;
     display: flex;
-    flex: 1 1 100px;
     flex-direction: column;
     position: relative;
     border: 2px solid aquamarine;
@@ -12,14 +13,18 @@
     top: -2px;
     right: -2px;
     background-color: aliceblue;
-    width: 30px;
-    height: 25px;
+    width: 35px;
+    height: 30px;
     border-radius: 0 10px;
 }
 
 .card > button > svg {
-    width: 15px;
+    width: 20px;
     height: 15px;
+}
+
+.card > a {
+    height: 200px;
 }
 
 .card > a > img {
@@ -57,4 +62,27 @@
 
 .iconoContainer > p {
     font-size: 0.8rem;
+}
+
+@media(min-width: 600px) {
+    .card {
+        width: 48%;
+        max-width: none;
+    }
+
+    .card > button {
+        width: 40px;
+        height: 35px;
+    }
+
+    .card > button > svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media(min-width: 992px) {
+    .card {
+        width: 30%;
+    }
 }
